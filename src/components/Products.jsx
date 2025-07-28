@@ -1,9 +1,9 @@
-import product1 from '../assets/images/product1.jpg';
-import product2 from '../assets/images/product2.jpg';
-import product3 from '../assets/images/product3.jpg';
-import product4 from '../assets/images/product4.jpg';
-import product5 from '../assets/images/product5.jpg';
-import product6 from '../assets/images/product6.jpg';
+import product1 from "../assets/images/product1.jpg";
+import product2 from "../assets/images/product2.jpg";
+import product3 from "../assets/images/product3.jpg";
+import product4 from "../assets/images/product4.jpg";
+import product5 from "../assets/images/product5.jpg";
+import product6 from "../assets/images/product6.jpg";
 
 const products = [
   { id: 1, name: "Bottle A", text: "High quality PET bottle", image: product1 },
@@ -20,9 +20,18 @@ const Products = () => {
       <h2 className="section-title">Our Products</h2>
       <div className="section-content">
         <ul className="menu-list">
-          {products.map(product => (
-            <li className="menu-item" key={product.id}>
-              <img src={product.image} alt={product.name} className="menu-image" />
+          {products.map((product, index) => (
+            <li
+              className="menu-item"
+              key={product.id}
+              data-aos="fade-up"
+              data-aos-delay={index * 100}
+            >
+              <img
+                src={product.image}
+                alt={product.name}
+                className="menu-image"
+              />
               <h3 className="name">{product.name}</h3>
               <p className="text">{product.text}</p>
             </li>
