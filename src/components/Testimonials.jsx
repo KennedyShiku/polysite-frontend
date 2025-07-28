@@ -5,14 +5,14 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-// import user1 from '../assets/images/user1.jpg';
-// import user2 from '../assets/images/user2.jpg';
-// import user3 from '../assets/images/user3.jpg';
+import user1 from '../assets/images/user1.jpg';
+import user2 from '../assets/images/user2.jpg';
+import user3 from '../assets/images/user3.jpg';
 
 const testimonials = [
-  { id: 1, name: "Sarah Johnson", feedback: "Excellent quality!",  },
-  { id: 2, name: "James Wilson", feedback: "Very reliable service.",  },
-  { id: 3, name: "Michael Brown", feedback: "Packaging was top-notch!",  },
+  { id: 1, name: "Sarah Johnson", feedback: "Excellent quality!", image: user1 },
+  { id: 2, name: "James Wilson", feedback: "Very reliable service.",  image: user2},
+  { id: 3, name: "Michael Brown", feedback: "Packaging was top-notch!", image: user3 },
 ];
 
 const Testimonials = () => {
