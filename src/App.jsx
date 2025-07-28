@@ -1,7 +1,7 @@
 import './index.css';
 import Navbar from './components/NavBar';
 import Hero from './components/Hero';
-// import AboutSection from './components/AboutSection';
+import About from './components/About';
 // More components to come...
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        {/* <AboutSection /> */}
+        <About />
         {/* Add Products, Testimonials, Gallery, Contact, Footer later */}
       </main>
     </>
