@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Products from './components/Products';
 import Testimonials from './components/Testimonials';
+import Contact from './components/Contact';
 // More components to come...
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <About />
         <Products />
         <Testimonials />
+        <Contact />
         {/* Add Products, Testimonials, Gallery, Contact, Footer later */}
       </main>
     </>
