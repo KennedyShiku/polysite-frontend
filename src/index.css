@@ -46,6 +46,10 @@ html{
     scroll-behavior: smooth;
 }
 
+main {
+  padding-bottom: 30px; 
+}
+
 /*stylings for whole site*/
 ul{
     list-style: none;

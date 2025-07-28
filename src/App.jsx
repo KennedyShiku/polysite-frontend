@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Ticker from "./components/Ticker";
 import Gallery from "./components/Gallery"
 import VisitorCounter from "./components/VisitCounter";
+import Downloads from "./components/Downloads";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Testimonials />
         <Gallery />
         <Contact />
+        <Downloads />
         <Footer />
       </main>
       <Ticker />
