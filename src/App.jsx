@@ -7,6 +7,7 @@ import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Ticker from "./components/Ticker";
+import Gallery from "./components/Gallery"
 import VisitorCounter from "./components/VisitCounter";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <About />
         <Products />
         <Testimonials />
+        <Gallery />
         <Contact />
         <Footer />
       </main>
