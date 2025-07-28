@@ -1,6 +1,6 @@
 import './index.css';
 import Navbar from './components/NavBar';
-// import HeroSection from './components/HeroSection';
+import Hero from './components/Hero';
 // import AboutSection from './components/AboutSection';
 // More components to come...
 
@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar />
       <main>
-        {/* <HeroSection /> */}
+        <Hero />
         {/* <AboutSection /> */}
         {/* Add Products, Testimonials, Gallery, Contact, Footer later */}
       </main>

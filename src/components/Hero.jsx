@@ -1,4 +1,4 @@
-import heroImage from '../assets/images/pic1.jpg';
+// import heroImage from '../assets/images/pic1.jpg';
 
 const HeroSection = () => {
   return (
@@ -16,7 +16,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="hero-image-wrapper">
-          <img src={heroImage} alt="Hero" className="hero-image" />
+          <img src="#" alt="Hero" className="hero-image" />
         </div>
       </div>
     </section>
