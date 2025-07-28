@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bottle A",
+      "text": "High quality PET bottle",
+      "image": "product1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jar B",
+      "text": "Durable for household use",
+      "image": "product2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Bottle C",
+      "text": "Eco-friendly option",
+      "image": "product3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Jar D",
+      "text": "Leak-proof design",
+      "image": "product4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Bottle E",
+      "text": "Compact and stylish",
+      "image": "product5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Jar F",
+      "text": "Chemical resistant",
+      "image": "product6.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Johnson",
+      "feedback": "Excellent quality!",
+      "image": "user1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "James Wilson",
+      "feedback": "Very reliable service.",
+      "image": "user2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Michael Brown",
+      "feedback": "Packaging was top-notch!",
+      "image": "user3.jpg"
+    }
+  ],
+  "gallery": [
+    "gallery1.jpg",
+    "gallery2.jpg",
+    "gallery3.jpg",
+    "gallery4.jpg",
+    "gallery5.jpg",
+    "gallery6.jpg"
+  ]
+}
