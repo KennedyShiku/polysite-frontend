@@ -468,6 +468,61 @@ header .navbar{
     color: var(--white-color);
 }
 
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.service-card {
+  background-color: #f4f4f4;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.query-form {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+}
+
+.query-form input,
+.query-form textarea {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.success-message {
+  margin-top: 1rem;
+  color: green;
+}
+
+.sitemap-list {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+.sitemap-list li {
+  margin-bottom: 0.5rem;
+}
+
+.sitemap-list a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.sitemap-list a:hover {
+  text-decoration: underline;
+}
+
+
+
 /*Responsive media query code for max width1024px*/
 @media screen and (max-width: 1024px){
     .menu-section .menu-list{
