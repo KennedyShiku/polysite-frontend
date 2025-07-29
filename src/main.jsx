@@ -20,8 +20,8 @@ import { BrowserRouter } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import './index.css'; // global styles
-import './assets/style.css'; // legacy CSS
+// import './index.css'; // global styles
+// import './assets/style.css'; // legacy CSS
 
 AOS.init();
 
