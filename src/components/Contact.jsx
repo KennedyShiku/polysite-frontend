@@ -35,11 +35,39 @@ const Contact = () => {
         </ul>
 
         <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
-          <input type="text" placeholder="Your name" className="form-input" required />
-          <input type="email" placeholder="Your email" className="form-input" required />
-          <textarea placeholder="Your message" className="form-input" required />
-          <button className="submit-button" type="submit">Submit</button>
+          <input
+            type="text"
+            placeholder="Your name"
+            className="form-input"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Your email"
+            className="form-input"
+            required
+          />
+          <textarea
+            placeholder="Your message"
+            className="form-input"
+            required
+          />
+          <button className="submit-button" type="submit">
+            Submit
+          </button>
         </form>
+        <div className="map-container" data-aos="fade-up" data-aos-delay="500">
+          <iframe
+            title="PolySite Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.244062347104!2d36.8219468!3d-1.2920654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d4368f2cb5%3A0xb76911c172174b04!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2ske!4v1620752076967!5m2!1sen!2ske"
+            width="100%"
+            height="300"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
     </section>
   );
