@@ -32,28 +32,31 @@
 // }
 
 // export default App;
-import './index.css';
-import { Routes, Route } from 'react-router-dom';
+import "./index.css";
+import { Routes, Route } from "react-router-dom";
 
-import Navbar from './components/NavBar';
-import Footer from './components/Footer';
-import Ticker from './components/Ticker';
-import VisitorCounter from './components/VisitCounter';
+import Navbar from "./components/NavBar";
+import Footer from "./components/Footer";
+import Ticker from "./components/Ticker";
+import VisitorCounter from "./components/VisitCounter";
 
-import Home from './pages/Home';
-import About from './pages/About';
-import Products from './pages/Products';
-import Testimonials from './pages/Testimonials';
-import Gallery from './pages/Gallery';
-import Contact from './pages/Contact';
-import Downloads from './pages/Downloads';
-import Sitemap from './pages/Sitemap';
-import Queries from './pages/Queries';
-import Services from './pages/Services';
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Products from "./pages/Products";
+import Testimonials from "./pages/Testimonials";
+import Gallery from "./pages/Gallery";
+import Contact from "./pages/Contact";
+import Downloads from "./pages/Downloads";
+import Sitemap from "./pages/Sitemap";
+import Queries from "./pages/Queries";
+import Services from "./pages/Services";
+
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <VisitorCounter />
       <Navbar />
       <Routes>
