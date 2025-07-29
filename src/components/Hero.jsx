@@ -33,6 +33,7 @@ import 'swiper/css/effect-fade';
 import hero1 from '../assets/images/gallery2.jpg';
 import hero2 from '../assets/images/pic2.jpg';
 import hero3 from '../assets/images/gallery6.jpg';
+import hero4 from '../assets/images/product2.jpg';
 
 const HeroSection = () => {
   return (
@@ -61,7 +62,7 @@ const HeroSection = () => {
             pagination={{ clickable: true }}
             className="hero-swiper"
           >
-            {[hero1, hero2, hero3].map((img, index) => (
+            {[hero1, hero2, hero3, hero4].map((img, index) => (
               <SwiperSlide key={index}>
                 <img src={img} alt={`Hero ${index + 1}`} className="hero-image" />
               </SwiperSlide>
