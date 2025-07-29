@@ -18,7 +18,7 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <section className="testimonials-section" id="testimonials">
-      <h2 className="section-title">Testimonials</h2>
+      <h2 className="section-title">Reviews</h2>
       <div className="section-content">
         <div className="slider-container">
           <Swiper

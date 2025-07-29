@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 const Queries = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    question: '',
+    name: "",
+    email: "",
+    question: "",
   });
 
   const [submitted, setSubmitted] = useState(false);
@@ -20,17 +20,25 @@ const Queries = () => {
     e.preventDefault();
     setSubmitted(true);
     // You could later connect this to Firebase or an email service
-    setFormData({ name: '', email: '', question: '' });
+    setFormData({ name: "", email: "", question: "" });
   };
 
   return (
     <section className="queries-section section-content" id="queries">
-      <h2 className="section-title" data-aos="fade-up">Customer Queries</h2>
+      <h2 className="section-title" data-aos="fade-up">
+        Customer Queries
+      </h2>
       <p className="text" data-aos="fade-up" data-aos-delay="200">
-        Have a question about our products or services? Fill out the form below and we’ll get back to you!
+        Have a question about our products or services? Fill out the form below
+        and we’ll get back to you!
       </p>
 
-      <form className="query-form" onSubmit={handleSubmit} data-aos="fade-up" data-aos-delay="300">
+      <form
+        className="query-form"
+        onSubmit={handleSubmit}
+        data-aos="fade-up"
+        data-aos-delay="300"
+      >
         <input
           type="text"
           name="name"
@@ -56,9 +64,17 @@ const Queries = () => {
           onChange={handleChange}
         ></textarea>
 
-        <button type="submit" className="button">Submit</button>
+        <div style={{ textAlign: "center" }}>
+          <button type="submit" className="submit-button">
+            Submit
+          </button>
+        </div>
 
-        {submitted && <p className="text success-message">Thank you! We'll respond to your inquiry soon.</p>}
+        {submitted && (
+          <p className="text success-message">
+            Thank you! We'll respond to your inquiry soon.
+          </p>
+        )}
       </form>
     </section>
   );

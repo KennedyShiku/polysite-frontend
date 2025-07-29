@@ -53,6 +53,7 @@ const tickerStyle = {
   textAlign: 'center',
   padding: '10px 0',
   zIndex: 1000,
+  transition: 'all 0.3s ease',
 };
 
 export default Ticker;

@@ -18,7 +18,6 @@ const Feedback = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Future enhancement: send data to API/localStorage here
     setSubmitted(true);
     setFormData({ name: '', email: '', message: '' });
   };
