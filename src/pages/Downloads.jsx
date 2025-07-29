@@ -1,6 +1,6 @@
 import DownloadsComponent from '../components/Downloads'
 
-const Contact = () => {
+const Downloads = () => {
   return <DownloadsComponent />;
 }
 

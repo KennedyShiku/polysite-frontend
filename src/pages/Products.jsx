@@ -1,6 +1,6 @@
 import ProductsComponent from '../components/Products'
 
-const Contact = () => {
+const Products = () => {
   return <ProductsComponent />;
 }
 

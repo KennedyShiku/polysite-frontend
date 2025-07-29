@@ -1,6 +1,6 @@
 import TestimonialsComponent from '../components/Testimonials'
 
-const Contact = () => {
+const Testimonials = () => {
   return <TestimonialsComponent />;
 }
 

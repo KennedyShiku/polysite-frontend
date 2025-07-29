@@ -1,6 +1,6 @@
 import GalleryComponent from '../components/Gallery'
 
-const Contact = () => {
+const Gallery = () => {
   return <GalleryComponent />;
 }
 
