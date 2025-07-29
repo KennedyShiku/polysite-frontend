@@ -1,6 +1,6 @@
 import aboutImage from '../assets/images/pic2.jpg';
 
-const AboutSection = () => {
+const About = () => {
   return (
     <section className="about-section" id="about">
       <div className="section-content">
@@ -27,4 +27,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default About;

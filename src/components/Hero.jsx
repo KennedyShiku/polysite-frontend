@@ -30,9 +30,9 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
-import hero1 from '../assets/images/hero1.jpg';
-import hero2 from '../assets/images/hero2.jpg';
-import hero3 from '../assets/images/hero3.jpg';
+import hero1 from '../assets/images/gallery2.jpg';
+import hero2 from '../assets/images/pic2.jpg';
+import hero3 from '../assets/images/gallery6.jpg';
 
 const HeroSection = () => {
   return (
