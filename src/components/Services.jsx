@@ -24,6 +24,26 @@ const Services = () => {
           <p>Reliable transport across regions to get your bottles to your door.</p>
         </div>
       </div>
+
+      {/* --- Downloads Section --- */}
+      <div className="downloads-section" data-aos="fade-up" style={{ marginTop: "3rem", textAlign: "center" }}>
+        <h3 className="section-title">Download Resources</h3>
+        <p style={{ marginBottom: '1.5rem' }}>
+          Download our detailed product specifications and catalogs:
+        </p>
+        <ul style={{ display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center' }}>
+          <li>
+            <a href="/downloads/product-catalog.pdf" download className="button order-now">
+              📄 Download Product Catalog (PDF)
+            </a>
+          </li>
+          <li>
+            <a href="/downloads/bottle-specs.doc" download className="button contact-us">
+              📝 Download Bottle Specs (DOC)
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
   );
 };
