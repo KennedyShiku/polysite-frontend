@@ -14,7 +14,7 @@ const HeroSection = () => {
     <section className="hero-section">
       <div className="section-content">
         <div className="hero-details">
-          <h2 className="title" data-aos="fade-up">Best Polysite</h2>
+          <h2 className="title" data-aos="fade-up">Polysite</h2>
           <h3 className="subtitle" data-aos="fade-up" data-aos-delay="300">
             Premium Bottle Manufacturing!
           </h3>

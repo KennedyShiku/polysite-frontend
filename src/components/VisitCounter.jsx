@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import logo from '../assets/images/polysitepartialbackground.png'; 
 
 const VisitorCounter = () => {
   const [count, setCount] = useState(0);
@@ -8,7 +9,7 @@ const VisitorCounter = () => {
       const visits = localStorage.getItem('polysite-visits');
       const newCount = visits ? parseInt(visits) + 1 : 1;
       localStorage.setItem('polysite-visits', newCount);
-      sessionStorage.setItem('visit-counted', 'true'); // ✅ Mark as counted
+      sessionStorage.setItem('visit-counted', 'true');
       setCount(newCount);
     } else {
       const current = localStorage.getItem('polysite-visits');
@@ -18,7 +19,8 @@ const VisitorCounter = () => {
 
   return (
     <div style={counterStyle}>
-      👁️ Visitors: {count}
+      <img src={logo} alt="Logo" style={logoStyle} />
+      Visitors: {count}
     </div>
   );
 };
@@ -33,6 +35,15 @@ const counterStyle = {
   padding: '5px 10px',
   borderRadius: '8px',
   zIndex: 1000,
+  display: 'flex',
+  alignItems: 'center',
+  gap: '8px'
+};
+
+const logoStyle = {
+  height: '20px',
+  width: '20px',
+  objectFit: 'contain'
 };
 
 export default VisitorCounter;

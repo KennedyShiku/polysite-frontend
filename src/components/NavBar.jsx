@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/images/polysitepartialbackground.png'; 
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,8 +18,16 @@ const Navbar = () => {
   return (
     <header>
       <nav className="navbar section-content">
-        <Link to="/" className="nav-logo" onClick={closeMenu}>
-          <h2 className="logo-text">Polysite</h2>
+        <Link to="/" className="nav-logo" onClick={closeMenu} style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <img
+            src={logo}
+            alt="Polysite Logo"
+            style={{
+              height: '65px',
+              objectFit: 'contain',
+              display: 'block'
+            }}
+          />
         </Link>
 
         <button
