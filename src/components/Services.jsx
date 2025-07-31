@@ -25,7 +25,7 @@ const Services = () => {
         </div>
       </div>
 
-      {/* --- Downloads Section --- */}
+      
       <div className="downloads-section" data-aos="fade-up" style={{ marginTop: "3rem", textAlign: "center" }}>
         <h3 className="section-title">Download Resources</h3>
         <p style={{ marginBottom: '1.5rem' }}>
