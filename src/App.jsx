@@ -7,13 +7,11 @@ import Ticker from "./components/Ticker";
 import VisitorCounter from "./components/VisitCounter";
 
 import Home from "./pages/Home";
-import About from "./pages/About";
+import About from "./pages/About"; 
 import Products from "./pages/Products";
-import Testimonials from "./pages/Testimonials";
+import Testimonials from "./pages/Testimonials"; 
 import Gallery from "./pages/Gallery";
-import Contact from "./pages/Contact";
-import Downloads from "./pages/Downloads";
-import Sitemap from "./pages/Sitemap";
+import Contact from "./pages/Contact"; 
 import Queries from "./pages/Queries";
 import Services from "./pages/Services";
 
@@ -34,8 +32,6 @@ function App() {
             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/downloads" element={<Downloads />} />
-            <Route path="/sitemap" element={<Sitemap />} />
             <Route path="/queries" element={<Queries />} />
             <Route path="/services" element={<Services />} />
           </Routes>
