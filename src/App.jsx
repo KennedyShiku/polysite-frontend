@@ -7,9 +7,9 @@ import Ticker from "./components/Ticker";
 import VisitorCounter from "./components/VisitCounter";
 import ScrollToTop from "./components/ScrollToTop";
 
-// Pages
+
 import Home from "./pages/Home";
-import About from "./pages/About"; 
+import About from "./pages/AboutContact"; 
 import Products from "./pages/Products";
 import Reviews from "./pages/Reviews"; 
 import Gallery from "./pages/Gallery";

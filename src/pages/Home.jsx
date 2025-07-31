@@ -1,11 +1,6 @@
 import Hero from '../components/Hero';
-import About from '../components/About';
-import Products from '../components/Products';
-import Testimonials from '../components/Reviews';
-import Gallery from '../components/Gallery';
-import Contact from '../components/Contact';
-import Downloads from '../components/Downloads';
-import Feedback from '../components/Feedback'; 
+import Feedback from '../components/Feedback';
+import Sitemap from '../components/Sitemap';
 import Ticker from '../components/Ticker';
 import VisitorCounter from '../components/VisitCounter';
 
@@ -14,13 +9,8 @@ const Home = () => {
     <>
       <VisitorCounter />
       <Hero />
-      <About />
-      <Products />
-      <Testimonials />
-      <Gallery />
-      <Feedback /> 
-      <Contact />
-      <Downloads />
+      <Feedback />
+      <Sitemap />
       <Ticker />
     </>
   );
