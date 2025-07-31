@@ -10,9 +10,9 @@ import user2 from '../assets/images/user2.jpg';
 import user3 from '../assets/images/user3.jpg';
 
 const testimonials = [
-  { id: 1, name: "Sarah Johnson", feedback: "Excellent quality!", image: user1 },
-  { id: 2, name: "James Wilson", feedback: "Very reliable service.",  image: user2},
-  { id: 3, name: "Michael Brown", feedback: "Packaging was top-notch!", image: user3 },
+  { id: 1, name: "Jane Addams", feedback: "Excellent quality!", image: user1 },
+  { id: 2, name: "Steven Rogers", feedback: "Very reliable service.",  image: user2},
+  { id: 3, name: "Anthony Brown", feedback: "Packaging was top-notch!", image: user3 },
 ];
 
 const Testimonials = () => {
