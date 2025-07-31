@@ -1,33 +1,46 @@
-// src/pages/Jars.jsx
-import jar1 from '../assets/images/product3.jpg';
-import jar2 from '../assets/images/product2.jpg';
-import jar3 from '../assets/images/gallery3.jpg';
+import jar1 from '../assets/images/product2.jpg';
+import jar2 from '../assets/images/product4.jpg';
+import jar3 from '../assets/images/product6.jpg';
+
+const jars = [
+  {
+    id: 1,
+    name: 'Jar B',
+    text: 'Durable for household use - 250ml - KES 20',
+    image: jar1,
+  },
+  {
+    id: 2,
+    name: 'Jar D',
+    text: 'Leak-proof design - 500ml - KES 35',
+    image: jar2,
+  },
+  {
+    id: 3,
+    name: 'Jar F',
+    text: 'Chemical resistant - 750ml - KES 45',
+    image: jar3,
+  },
+];
 
 const Jars = () => {
   return (
-    <section className="products-section section-content" id="jars">
-      <h2 className="section-title" data-aos="fade-up">Jars</h2>
-      <p className="text" data-aos="fade-up" data-aos-delay="200">
-        Explore our selection of high-quality plastic jars suitable for a wide range of industries.
-      </p>
-
-      <div className="products-grid">
-        <div className="product-card" data-aos="fade-up" data-aos-delay="300">
-          <img src={jar1} alt="Jar 1" className="product-image" />
-          <h3 className="product-title">Flat Lid Jar</h3>
-          <p className="product-desc">500ml • Ø85mm x 100mm • Ksh 18.50</p>
-        </div>
-
-        <div className="product-card" data-aos="fade-up" data-aos-delay="400">
-          <img src={jar2} alt="Jar 2" className="product-image" />
-          <h3 className="product-title">Straight Wall Jar</h3>
-          <p className="product-desc">750ml • Ø90mm x 120mm • Ksh 22.00</p>
-        </div>
-
-        <div className="product-card" data-aos="fade-up" data-aos-delay="500">
-          <img src={jar3} alt="Jar 3" className="product-image" />
-          <h3 className="product-title">Mini Cosmetic Jar</h3>
-          <p className="product-desc">150ml • Ø60mm x 60mm • Ksh 12.00</p>
+    <section className="menu-section" id="jars">
+      <div className="section-content">
+        <nav className="breadcrumb" aria-label="breadcrumb">
+          <p>
+            <a href="/">Home</a> &gt; <a href="/products">Products</a> &gt; Jars
+          </p>
+        </nav>
+        <h2 className="section-title">Plastic Jars</h2>
+        <div className="product-grid">
+          {jars.map((jar, index) => (
+            <div className="product-card" key={jar.id} data-aos="fade-up" data-aos-delay={index * 100}>
+              <img src={jar.image} alt={jar.name} className="product-image" />
+              <h3 className="name">{jar.name}</h3>
+              <p className="text">{jar.text}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
