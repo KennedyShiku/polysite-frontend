@@ -9,7 +9,7 @@ import VisitorCounter from "./components/VisitCounter";
 import Home from "./pages/Home";
 import About from "./pages/About"; 
 import Products from "./pages/Products";
-import Testimonials from "./pages/Testimonials"; 
+import Reviews from "./pages/Reviews"; 
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact"; 
 import Queries from "./pages/Queries";
@@ -29,7 +29,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/products" element={<Products />} />
-            <Route path="/testimonials" element={<Testimonials />} />
+            <Route path="/reviews" element={<Reviews />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/queries" element={<Queries />} />
