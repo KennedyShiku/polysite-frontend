@@ -19,7 +19,6 @@ const Queries = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitted(true);
-    // You could later connect this to Firebase or an email service
     setFormData({ name: "", email: "", question: "" });
   };
 

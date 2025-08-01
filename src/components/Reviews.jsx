@@ -25,7 +25,7 @@ const Testimonials = () => {
             loop={true}
             pagination={{ clickable: true }}
             navigation={true}
-            modules={[Navigation, Pagination]} // ✅ this is all you need now
+            modules={[Navigation, Pagination]} 
             className="slider-wrapper"
           >
             {testimonials.map((t) => (
